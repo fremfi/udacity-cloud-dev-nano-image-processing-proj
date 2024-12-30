@@ -2,6 +2,8 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import { query, validationResult } from 'express-validator';
 import {filterImageFromURL, deleteLocalFiles} from './util/util.js';
+// import axios from "axios";
+// import { fileTypeFromBuffer } from 'file-type';
 
 // Init the Express application
 const app = express();
